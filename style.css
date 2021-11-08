@@ -236,6 +236,18 @@ nav ul li a:hover {
     border-radius: 1%;
     border: 1.5px solid #004466;
   }
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    background-color: #8f0756;
+    color: #eee;
+    padding-left: 1em;
+    padding-top: 1em;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 900px) {
   .project-image {
